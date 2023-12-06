@@ -1,0 +1,51 @@
+.header-bg {
+  background-color: var(--cor-12);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  place-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 16px 0px;
+  position: relative;
+}
+
+.header-menu a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 4px;
+  margin-top: 4px;
+  position: absolute;
+  background: var(--cor-0);
+  transition: 0.3s;
+}
+
+.header-menu a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .header-menu a {
+    padding: 16px;
+  }
+  .header-menu a::after {
+    display: none;
+  }
+  .header-menu a:hover {
+    background: var(--cor-10);
+    border-radius: 4px;
+  }
+}

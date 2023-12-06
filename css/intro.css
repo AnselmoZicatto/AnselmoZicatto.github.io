@@ -1,0 +1,31 @@
+.intro-bg {
+  background-color: var(--cor-12);
+  box-shadow: inset 0px -120px var(--cor-2);
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 0px 40px;
+}
+
+.intro-content {
+  align-self: end;
+  padding-bottom: 200px;
+}
+
+.intro img {
+  padding-top: 100px;
+  width: 350px;
+  height: 700px;
+  object-fit: cover;
+}
+
+.intro h1 {
+  margin-top: 200px;
+  margin-bottom: 32px;
+}
+
+.intro p {
+  margin-bottom: 20px;
+}
