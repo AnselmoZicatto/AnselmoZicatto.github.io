@@ -22,10 +22,52 @@
 }
 
 .intro h1 {
-  margin-top: 200px;
-  margin-bottom: 32px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .intro p {
-  margin-bottom: 20px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+  .intro-bg {
+    box-shadow: none;
+  }
+  .intro img {
+    padding-top: 75px;
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+  }
+  .intro h1 {
+    padding-top: 10px;
+    margin-bottom: 32px;
+  }
+  .intro-content {
+    padding-bottom: 80px;
+  }
+  .intro p {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro img {
+    display: none;
+  }
+  .intro {
+    grid-template-columns: 1fr;
+  }
+  .intro h1 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+
+  .intro p {
+    padding-bottom: 20px;
+  }
+  .intro-content {
+    padding-bottom: 50px;
+  }
 }

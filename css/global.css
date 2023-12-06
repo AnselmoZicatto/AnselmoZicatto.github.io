@@ -127,6 +127,15 @@ img {
   font: 400 1.5rem/1.5 "Arial", sans-serif;
 }
 
+@media (max-width: 600px) {
+  .font-xl {
+    font: 600 3rem/1.125 "Arial", sans-serif;
+  }
+  .font-l {
+    font: 400 1.2rem/1.5 "Arial", sans-serif;
+  }
+}
+
 /* COMPONENTS */
 
 .button {
@@ -141,4 +150,11 @@ img {
   max-width: max-content;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .button {
+    padding: 12px 24px;
+    font: 600 1rem/1.35 "Poppins", sans-serif;
+  }
 }

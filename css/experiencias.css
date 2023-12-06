@@ -110,3 +110,51 @@
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background-color: #f9f9f9;
 }
+
+@media (max-width: 800px) {
+  .experiencias-bg {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .container h2 {
+    padding-top: 60px;
+    margin-bottom: 30px;
+  }
+  .slides {
+    height: 300px;
+  }
+  .slider {
+    width: 600px;
+    height: 300px;
+  }
+  .manual-navigation {
+    width: 600px;
+    margin-top: -50px;
+  }
+  .navigation-auto {
+    width: 600px;
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container h2 {
+    padding-top: 40px;
+    margin-bottom: 15px;
+  }
+  .slides {
+    height: 200px;
+  }
+  .slider {
+    width: 400px;
+    height: 200px;
+  }
+  .manual-navigation {
+    width: 400px;
+    margin-top: -50px;
+  }
+  .navigation-auto {
+    width: 400px;
+    margin-top: 150px;
+  }
+}
