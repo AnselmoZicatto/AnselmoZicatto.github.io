@@ -1,7 +1,7 @@
 .pesqueiros-bg {
   background-color: var(--cor-12);
   padding-top: 80px;
-  padding-bottom: 400px;
+  padding-bottom: 50px;
 }
 
 .pesqueiros-bg p {
@@ -30,6 +30,15 @@
   padding-top: 20px;
   display: flex;
   place-content: center;
+}
+
+.pesqueiro-imagem-intro {
+  width: 80%;
+  margin: auto;
+}
+
+.button-pesqueiro {
+  padding-top: 30px;
 }
 
 @media (max-width: 1100px) {
