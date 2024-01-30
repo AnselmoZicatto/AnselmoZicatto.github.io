@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   router.add("/pesqueiros/delevatti", "delevatti.html");
   router.add("/pesqueiros/geraldino", "geraldino.html");
   router.add("/pesqueiros/kielbowicz", "kielbowicz.html");
-  router.add("/pesqueiros/404", "404.html");
+  // router.add("/pesqueiros/404", "404.html");
 
   router.handle();
 
